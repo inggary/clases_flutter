@@ -22,7 +22,9 @@ class GeneratorPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //Text('Ideas asombrosas de forma aleatoria:'),
+            //Image.network('https://upload.wikimedia.org/wikipedia/commons/7/7d/Logo_Letras.mus.br.png'),
+            Image.asset('assets/logo.png'),
+            Text('Ideas asombrosas de forma aleatoria:'),
             BigCard(pair: pair.asLowerCase),
             SizedBox(height: 10),
             Row(
